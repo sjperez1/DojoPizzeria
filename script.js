@@ -6,6 +6,7 @@ function pizzaOven(crustType, sauceType, cheeses, toppings) {
     pizza.toppings = toppings;
     return pizza;
 }
+
 var p1 = pizzaOven("deep dish", "traditional", ["mozzarella"], ["pepperoni", "sausage"]);
 console.log(p1);
 
@@ -16,4 +17,4 @@ var p3 = pizzaOven("thin", "pesto", ["mozzarella", "parmesean"], ["green peppers
 console.log(p3);
 
 var p4 = pizzaOven("hand tossed", "garlic white sauce", ["mozzarella", "ricotta", "parmesean"], ["italian sausage", "pepperoni", "onion"]);
-console.log(p4)
+console.log(p4);
